@@ -1,0 +1,41 @@
+
+.tableContainer{
+    width: 90%;
+    max-width: 1000px;
+    width: 1000px;
+    height: 667px;
+    margin: auto;
+    background-image: url("../assets/images/table.jpg");
+}
+.tableSampler {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.table{
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.close{
+    margin-left: 95%;
+}
+
+.table1{
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border: solid 2px aliceblue;
+    border-radius: 50%;
+}
+
+.tableName{
+   color: blanchedalmond;
+}
+

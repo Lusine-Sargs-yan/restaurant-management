@@ -1,0 +1,67 @@
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pagination span{
+  padding: 11px 24px;
+  border: 2px solid #e4dcdc; 
+  cursor: pointer;
+  color: #b15088;
+  justify-content: center;
+  border-radius: 4px; 
+}
+
+.pagination span.active {
+  background-color: #e4dcdc;
+  color: #3f2e36;
+
+}
+.btn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.prev-button {
+  border-color: #ecc5db;
+  border-radius: 10px;
+
+  background-color: #20232a;
+	opacity: 0.9;
+  border: none;
+  color: #e4dcdc;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.next-button {
+  border-color: #ecc5db;
+  border-radius: 10px;
+  background-color: #20232a;
+	opacity: 0.9;
+  border: none;
+  color:  #e4dcdc;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+
+.pagianation-container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

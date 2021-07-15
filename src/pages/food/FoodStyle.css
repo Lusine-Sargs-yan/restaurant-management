@@ -1,0 +1,22 @@
+.food-container{
+  background-image: url("../../assets/images/beetroot.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 320px;
+  margin: 20px;
+}
+
+.error {
+  color: #c51f1f;
+
+}

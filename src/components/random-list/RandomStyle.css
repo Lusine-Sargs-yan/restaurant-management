@@ -1,0 +1,36 @@
+.container-card {
+  width: 360px;
+	padding: 10px;
+	margin: 10px;
+
+	background-color: #ffffff; /*rgba(31, 14, 3, 0.1);*/
+	border-radius: 15px;
+}
+
+.image {
+  width: 320px;
+	padding: 10px;
+	margin: 10px;
+
+	background-color: hsla(21, 26%, 15%, 0.1);
+	border-radius: 15px;
+
+}
+
+.name {
+  color: #5c1c1c;
+  text-align: center;
+}
+
+.kitchen, .price  {
+  color: #5c1c1c;
+  text-align: center;
+  border-color: #5c1c1c;
+}
+
+@media screen and (max-width: 740px) {
+	.container-card {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+}

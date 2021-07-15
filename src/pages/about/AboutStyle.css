@@ -1,0 +1,21 @@
+.wrapper {
+	background-image: url("../../assets/images/background.jpg");
+	background-repeat: no-repeat;
+  height: 4000px;
+	background-position: center;
+	background-attachment: fixed;
+
+}
+
+
+@media screen and (max-width: 1060px) {
+  .wrapper {
+    width: 720px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .wrapper {
+    width: 520px;
+  }
+}

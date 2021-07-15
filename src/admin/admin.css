@@ -1,0 +1,64 @@
+
+.pagediv {
+    margin-top: 100px;
+    max-width: 850px;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    border: none;
+    background-color: rgb(50, 46, 30);
+}
+
+.loggedInContainer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.menuContainer {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.button {
+    height: 35px;
+    width: 110px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 5%;
+    color: rgb(211, 183, 183);
+    background-color: rgb(33, 68, 72);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.menuButton{
+    height: 35px;
+    width: 110px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 5%;
+    color: rgb(211, 183, 183);
+    background-color: rgb(33, 68, 72);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.menuItem{
+    text-align: center;
+    margin-top: 50px;
+}
+.item{
+    border: solid 1px black;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+.changeButton{
+    margin-left: 10px;
+}
+.tableContainer{
+    text-align: center;
+}
+.tableButton{
+    margin-left: 10px;
+}

@@ -1,0 +1,104 @@
+
+.link {
+	display: inline-block;
+	margin-left: 10px;
+	font-size: 15px;
+	text-decoration: none;
+	font-family: sans-serif;
+	color: white;
+	text-transform: uppercase;
+	border-bottom: 3px solid transparent;
+	padding: 10px 1px;
+	transition: 200ms;
+}
+.closelink{
+    margin-left: 265px;
+}
+
+.logIn{
+    width: 300px;
+    height: 330px;
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
+    box-shadow: 0 0 10px #000000, 0 0 0 1px rgb(47 47 47 / 50%) inset;
+    position: absolute;
+    top: 100%;
+}
+
+
+.newRegiter{
+    margin-top: 12%;
+    padding: 0;
+    
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;;
+    text-align: center;
+}
+.logInTitle{
+    display: block;
+    font-size: 2em;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 0 10px rgb(0 0 0 / 30%);
+}
+.input-container{
+    margin-top: 25px;
+    text-align: center;
+}
+.input{
+    width: 260px;
+    margin-left: 10px;
+    margin-top: 15px;
+    background: rgba(63, 61, 61, 0.3);
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 13px;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 30%);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    box-shadow: inset 0 -5px 45px rgb(100 100 100 / 20%), 0 1px 1px rgb(255 255 255 / 20%);
+    color: white;
+}
+.logInLink {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.accountLink{
+    text-align: center;
+}
+.errorMessage{
+    text-align: center;
+    margin-top: 10px;
+}
+.errorText{
+    color:red;
+}
+.closeLink{
+    display: inline-block;
+	margin-left: 10px;
+	font-size: 15px;
+	text-decoration: none;
+	font-family: sans-serif;
+	color: white;
+	text-transform: uppercase;
+	border-bottom: 3px solid transparent;
+	padding: 10px 1px;
+	transition: 200ms;
+    margin-left: 275px;
+}
+
+.username {
+    text-align: center;
+}
+.inccorectMessage {
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
