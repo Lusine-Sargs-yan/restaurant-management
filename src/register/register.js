@@ -147,7 +147,7 @@ export default function SignIn({ changeReserveState }) {
 						className="link"
 						onClick={() => setLoggedIn("createAccount")}
 					>
-						Create a new account
+						Create account
 					</Link>
 				</div>
 			</div>

@@ -15,7 +15,6 @@ export default function CardBeerComponent({
   const { addToCart, cartItems, increase } = useCartContext();
   let opts = { format: "%s%v", symbol: "$" };
   const price = volume.value;
-  console.log(price);
   const maxLength = 37;
   const isItemOnList = () => {
     return cartItems.find((product) => product.id === id) !== undefined;
@@ -36,7 +35,7 @@ export default function CardBeerComponent({
       key={id}
     >
       <CardContent className="card-component">
-        <Typography variant="body2" component="p">
+        <Typography variant="body2" component={"span"}>
           <br />
           <img src={image_url} alt={name} className="beer-image" />
         </Typography>

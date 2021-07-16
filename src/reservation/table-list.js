@@ -15,13 +15,12 @@ export function TableListComponent({ changeReserveState }) {
   const [tableStatus6, setTableStatus6] = useState(loadStateByKey('reserveStatus6'));
 
   const reservationContext = useContext(ReserveContext);
-  const user = loadState('loggedInUser')
+  const user = loadState('loggedInUser');
 
   const free = <h3 className="tableName">Free</h3>;
   const reserved = <h3 className="tableName">Reserved</h3>;
 
   function TableComponent(props) {
-    const tableState = loadState(props.data.name);
 
     const reservation = () => {
       saveState(
@@ -46,41 +45,41 @@ export function TableListComponent({ changeReserveState }) {
         </div>
       );
     }
-    if (tableState === null || tableState.user === user.name) {
-      if (props.tableStatus === "Not reserved") {
-        return (
-          <div className="table">
-            <h2 className="tableName">{props.data.name}</h2>
-            <h4 className="tableName">Places {props.data.places}</h4>
-            {free}
-            <Link to="/" className="link" onClick={reservation}>
-              Reserve
-            </Link>
-          </div>
-        );
-      } else if (props.tableStatus === "reserved") {
-        return (
-          <div className="table">
-            <h2 className="tableName">{props.data.name}</h2>
-            <h4 className="tableName">Places {props.data.places}</h4>
-            {reserved}
-            <Link to="/" className="link" onClick={reservationOff}>
-              Cancel
-            </Link>
-          </div>
-        );
-      }
-    } else {
+    if (props.tableStatus === "Not reserved") {
+      return (
+        <div className="table">
+          <h2 className="tableName">{props.data.name}</h2>
+          <h4 className="tableName">Places {props.data.places}</h4>
+          {free}
+          <Link to="/" className="link" onClick={reservation}>
+            Reserve
+          </Link>
+        </div>
+      );
+    } else if (props.tableStatus === "reserved") {
       return (
         <div className="table">
           <h2 className="tableName">{props.data.name}</h2>
           <h4 className="tableName">Places {props.data.places}</h4>
           {reserved}
+          <Link to="/" className="link" onClick={reservationOff}>
+            Cancel
+          </Link>
         </div>
       );
     }
-  }
-  if (reservationContext) {
+
+    return (
+      <div className="table">
+        <h2 className="tableName">{props.data.name}</h2>
+        <h4 className="tableName">Places {props.data.places}</h4>
+        {reserved}
+      </div>
+    );
+  };
+
+
+  if(reservationContext) {
     return (
       <div className="tableContainer">
         <div className="close">
@@ -155,5 +154,5 @@ export function TableListComponent({ changeReserveState }) {
       </div>
     );
   }
-  return "";
+  return null;
 }

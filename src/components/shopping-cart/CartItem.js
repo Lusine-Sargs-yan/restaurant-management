@@ -54,10 +54,10 @@ export const CartItem = ({ item }) => {
           image={item.image || item.image_url}
           title="item.image"
         />
-        <Typography variant="body2" color="textSecondary" component="p">
+        <Typography variant="body2" color="textSecondary" component={'span'}>
           {item.name}
         </Typography>
-        <Typography variant="body2" color="textSecondary" component="p">
+        <Typography variant="body2" color="textSecondary" component={'span'}>
           <LocalOfferTwoToneIcon />
           {formatCurrency(`${item.price || item.volume.value}`, opts)}
         </Typography>

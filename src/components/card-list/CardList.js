@@ -13,7 +13,7 @@ export default function CardList({ data }) {
     data === loadState("FOODS_DATA_loc")
   ) {
     return (
-      <ul className="list">
+      <ul className="list" >
         {data?.map(({ id, name, image, kitchen, price, quantity = 0 }) => {
           return (
             <div key={id}>

@@ -2,7 +2,7 @@ import React from "react";
 import {useState } from "react";
 import TableControl from "./table-control";
 import MenuControl from "./control-menu";
-import UsersControl from "./user-control";
+import UserControl from "./user-control";
 import "./admin.css";
 
 export function AdminComponent({ changeState }) {
@@ -57,7 +57,7 @@ export function AdminComponent({ changeState }) {
 		return (
 			<div>
 				{controlData}
-				<UsersControl />
+				<UserControl />
 			</div>
 		);
 	} else if (tableControl && !usersControl && !menuControl) {

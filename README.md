@@ -5,7 +5,7 @@
 -  The app has a header with navigation to home, about, food, sweets, drink pages.
 -  On home page shows all restaurant products,story․
 -  On about page  separated  three part Restaurant story, philosophy and team.
--  Menu is separated by food, sweets, drink pages with each special product collection --with a detailed description, these pages have their products pagination.
+-  Menu is separated by food, sweets, drink pages with each special product collection with a detailed description, these pages have their products pagination.
 - The Restaurant Management App has  a chance to  make a product search on every page. You can select a product click  on ADD TO BUTTON and the product would appear in Cart, where you can see  a product with its price.But if you do not want this existing  product in Card you can remove it and select the other product.
 - The Restaurant Management App has an opportunity to log in site and add your products to cart, at the same time reserve a table.
 - The Restaurant Management App has footer part, where placed restaurant contacts and admin part.

@@ -44,10 +44,12 @@
 	border-radius: 15px;
 }
 .btn-more-less {
+	border: none;
 	display: inline;
-	color: blue;
-	background-color: #cbcbcc;
-	border: 0px;
+	color: rgb(42, 42, 172);
+	background-color: inherit;
+	font-size: 14px;
+	cursor: pointer;
 
 }
 

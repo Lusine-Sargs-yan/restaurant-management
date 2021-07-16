@@ -86,10 +86,10 @@ export default function SearchContainer() {
           name="search"
         />
         <div key="search">
-          {!isSearchData ? <CardList data={filteredSweetsDataNames} key="sweetsData" /> : null}
-          {!isSearchData ? <CardList data={filteredFoodDataNames } key="foodData"/> : null}
-          {!isSearchData ? <CardList data={filteredDrinksDataNames } key="drinksData" /> : null}
-          {!isSearchData ? <CardList data={filteredDataNames } key="beerApi"/>  : null}
+          {!isSearchData ? <CardList data={filteredSweetsDataNames}/> : null}
+          {!isSearchData ? <CardList data={filteredFoodDataNames } /> : null}
+          {!isSearchData ? <CardList data={filteredDrinksDataNames }/> : null}
+          {!isSearchData ? <CardList data={filteredDataNames } />  : null}
 
         </div>
       </div>

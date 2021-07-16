@@ -37,7 +37,7 @@ export default function CardComponent({
       key={id}
     >
       <CardContent className="card-component">
-        <Typography variant="body2" component="p">
+        <Typography variant="body2" component={'span'} >
           <img className="all-image" src={image} alt={name} />
         </Typography>
         <Typography variant="h6" component="h6" className="item-decoration">

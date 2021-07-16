@@ -36,7 +36,6 @@ export default function MenuControlComponent(props) {
         el.price = newPrice;
         return el;
       } 
-
       return el;
     });
     localStorage.setItem(

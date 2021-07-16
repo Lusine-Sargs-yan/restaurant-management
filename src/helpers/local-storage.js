@@ -9,7 +9,7 @@ export const saveState = (key, value) => {
 
 export const loadState = (key) => {
   try {
-    return JSON.parse(localStorage.getItem(key)) || [];
+    return JSON.parse(localStorage.getItem(key));
   } catch {
     alert("Please, activate local storage!");
   }

@@ -21,7 +21,7 @@ export default function TableControl() {
             className = 'tableButton'
             onClick={() => {
               saveState('reserveStatus1', 'reserved');
-              setIsStatusOn((prev) => !prev);
+              setIsStatusOn(!isStatusOn);
               saveState('adminControlTable1', '1');
             }}
           >
@@ -34,7 +34,7 @@ export default function TableControl() {
                 localStorage.removeItem("Table1");
               }
               localStorage.setItem('reserveStatus1', 'Not reserved');
-              setIsStatusOn((prev) => !prev);
+              setIsStatusOn(!isStatusOn);
               localStorage.removeItem("adminControlTable1");
             }}
           >
@@ -54,7 +54,7 @@ export default function TableControl() {
             className = 'tableButton'
             onClick={() => {
               saveState('reserveStatus2', 'reserved');
-              setIsStatusOn((prev) => !prev);
+              setIsStatusOn(!isStatusOn);
               saveState('adminControlTable2', '1');
             }}
           >
@@ -67,7 +67,7 @@ export default function TableControl() {
                 localStorage.removeItem("Table2");
               }
               localStorage.setItem('reserveStatus2', 'Not reserved');
-              setIsStatusOn((prev) => !prev);
+              setIsStatusOn(!isStatusOn);
               localStorage.removeItem("adminControlTable2");
             }}
           >
@@ -87,7 +87,7 @@ export default function TableControl() {
             className = 'tableButton'
             onClick={() => {
               saveState('reserveStatus3', 'reserved');
-              setIsStatusOn((prev) => !prev);
+              setIsStatusOn(!isStatusOn);
               saveState('adminControlTable3', '1');
             }}
           >
@@ -100,7 +100,7 @@ export default function TableControl() {
                 localStorage.removeItem("Table3");
               }
               localStorage.setItem('reserveStatus3', 'Not reserved');
-              setIsStatusOn((prev) => !prev);
+              setIsStatusOn(!isStatusOn);
               localStorage.removeItem("adminControlTable3");
             }}
           >
@@ -120,7 +120,7 @@ export default function TableControl() {
             className = 'tableButton'
             onClick={() => {
               saveState('reserveStatus4', 'reserved');
-              setIsStatusOn((prev) => !prev);
+              setIsStatusOn(!isStatusOn);
               saveState('adminControlTable4', '1');
             }}
           >
@@ -133,7 +133,7 @@ export default function TableControl() {
                 localStorage.removeItem("Table4");
               }
               localStorage.setItem('reserveStatus4', 'Not reserved');
-              setIsStatusOn((prev) => !prev);
+              setIsStatusOn(!isStatusOn);
               localStorage.removeItem("adminControlTable4");
             }}
           >
@@ -153,7 +153,7 @@ export default function TableControl() {
             className = 'tableButton'
             onClick={() => {
               saveState('reserveStatus5', 'reserved');
-              setIsStatusOn((prev) => !prev);
+              setIsStatusOn(!isStatusOn);
               saveState('adminControlTable5', '1');
             }}
           >
@@ -166,7 +166,7 @@ export default function TableControl() {
                 localStorage.removeItem("Table5");
               }
               localStorage.setItem('reserveStatus5', 'Not reserved');
-              setIsStatusOn((prev) => !prev);
+              setIsStatusOn(!isStatusOn);
               localStorage.removeItem("adminControlTable5");
             }}
           >
@@ -186,7 +186,7 @@ export default function TableControl() {
             className = 'tableButton'
             onClick={() => {
               saveState('reserveStatus6', 'reserved');
-              setIsStatusOn((prev) => !prev);
+              setIsStatusOn(!isStatusOn);
               saveState('adminControlTable6', '1');
             }}
           >
@@ -199,7 +199,7 @@ export default function TableControl() {
                 localStorage.removeItem("Table6");
               }
               localStorage.setItem('reserveStatus6', 'Not reserved');
-              setIsStatusOn((prev) => !prev);
+              setIsStatusOn(!isStatusOn);
               localStorage.removeItem("adminControlTable6");
             }}
           >

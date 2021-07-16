@@ -10,7 +10,7 @@ import {TableListComponent } from "./reservation/table-list";
 import Scroll from "./components/scroll/ScrollToTop";
 import SearchComponent from "./containers/search/Search";
 import { AdminComponent } from "./admin/admin";
-import LocalStorageData from "./helpers/creatingLocalstoragesDate";
+import LocalStorageData from "./helpers/store-data";
 import "./App.css";
 
 

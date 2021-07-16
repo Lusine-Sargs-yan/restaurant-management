@@ -2,7 +2,7 @@ import { useState } from "react";
 import { loadState, saveState } from "../helpers/local-storage";
 import "./admin.css";
 
-export default function UsersControl() {
+export default function UserControl() {
   const userList = loadState("usersArray");
   const [count, setCount] = useState(1);
 
@@ -14,7 +14,6 @@ export default function UsersControl() {
           let results = [];
 
           userList.forEach((user) => {
-            //console.log(user.password);
             if (user.name !== name && user.password !== password) {
               results.push(user);
             }
